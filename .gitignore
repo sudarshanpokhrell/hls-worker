@@ -1,0 +1,13 @@
+# Environment files (keep .env.example tracked)
+.env
+.env.local
+
+# Build artifacts
+hls-worker
+*.exe
+
+# Scratch / media
+output/
+*.mp4
+*.ts
+*.m3u8
